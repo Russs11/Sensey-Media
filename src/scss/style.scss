@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.container {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+
+    .header {
+        height: 85px;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        &-logo {
+            height: 70px;
+            width: 325px;
+            background-color: black;
+            background-image: url("../img/logo.png");
+        }
+    }
+}

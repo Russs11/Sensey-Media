@@ -1,0 +1,35 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container .header {
+  height: 85px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header-logo {
+  height: 70px;
+  width: 325px;
+  background-color: black;
+  background-image: url("../img/logo.png");
+}
