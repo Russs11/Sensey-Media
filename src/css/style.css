@@ -37,7 +37,16 @@ body {
   background-image: url("../img/logo.png");
 }
 
-.container .header-btn {
+.container .header .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .header .header-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +58,12 @@ body {
           align-items: center;
   height: 54px;
   width: 205px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(blue, pink));
-  background: linear-gradient(pink blue);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f32c6d), to(#cb1d95));
+  background: linear-gradient(#f32c6d, #cb1d95);
+  border-radius: 9px;
+  border-color: black;
+  border-style: inset;
+  border-width: 1px;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
