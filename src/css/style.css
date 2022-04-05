@@ -14,17 +14,20 @@ body {
   width: 1400px;
   height: 100%;
   margin: 0 auto;
+  background-color: #f7f6ff;
 }
 
 .container .header {
   height: 85px;
-  background-color: aqua;
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .container .header-logo {
@@ -32,4 +35,20 @@ body {
   width: 325px;
   background-color: black;
   background-image: url("../img/logo.png");
+}
+
+.container .header-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 54px;
+  width: 205px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(blue, pink));
+  background: linear-gradient(pink blue);
 }
