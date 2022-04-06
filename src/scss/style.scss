@@ -73,6 +73,7 @@ body {
     }
 
     .first_screen {
+        box-sizing: border-box;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -94,6 +95,7 @@ body {
         .h2 {
             font-family: "Manrope";
             font-style: normal;
+            margin-top: 15px;
             font-weight: 600;
             font-size: 16px;
             line-height: 24px;
@@ -102,6 +104,8 @@ body {
         .btns {
             display: flex;
             justify-content: left;
+            margin-top: 30px;
+            width: fit-content;
         }
         .btn_left {
             display: flex;
@@ -123,6 +127,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 0 10px;
             height: 54px;
             width: 114px;
             background-color: #77b2d3;
@@ -149,5 +154,8 @@ body {
             line-height: 26px;
             color: #fff;
         }
+    }
+    .fs_img {
+        display: flex;
     }
 }

@@ -100,6 +100,8 @@ body {
 }
 
 .container .first_screen {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,6 +132,7 @@ body {
 .container .first_screen .h2 {
   font-family: "Manrope";
   font-style: normal;
+  margin-top: 15px;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -143,6 +146,10 @@ body {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  margin-top: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .container .first_screen .btn_left {
@@ -177,6 +184,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 10px;
   height: 54px;
   width: 114px;
   background-color: #77b2d3;
@@ -209,4 +217,10 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #fff;
+}
+
+.container .fs_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
