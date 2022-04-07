@@ -99,7 +99,13 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .container .first-screen {
+=======
+.container .first_screen {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+>>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +160,7 @@ body {
           flex-grow: 1;
   font-family: "Manrope";
   font-style: normal;
+  margin-top: 15px;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -164,10 +171,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+=======
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+>>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
 }
 
 .container .first-screen .btns .btn-1 {
@@ -202,6 +219,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 10px;
   height: 54px;
   width: 114px;
   background-color: #77b2d3;
@@ -236,6 +254,7 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .container .first-screen .fs-img {
   width: 570px;
   display: -webkit-box;
@@ -248,4 +267,10 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+=======
+.container .fs_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
 }
