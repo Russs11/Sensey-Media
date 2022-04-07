@@ -73,12 +73,9 @@ body {
         }
     }
 
-<<<<<<< HEAD
     .first-screen {
-=======
-    .first_screen {
-        box-sizing: border-box;
->>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
+
+   
         display: flex;
         // align-items: center;
         flex-direction: column;
@@ -92,7 +89,7 @@ body {
             flex-grow: 1;
             width: 463px;
             height: 127px;
-<<<<<<< HEAD
+
 
             .text-1 {
                 font-family: "Manrope";
@@ -120,28 +117,12 @@ body {
                 line-height: 24px;
                 color: #333333;
             }
-=======
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 800;
-            font-size: 45px;
-            line-height: 65px;
-            color: #333333;
-        }
-        .h2 {
-            font-family: "Manrope";
-            font-style: normal;
-            margin-top: 15px;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 24px;
-            color: #333333;
->>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
+
         }
 
         .btns {
             display: flex;
-<<<<<<< HEAD
+
             flex-direction: row;
 
             .btn-1 {
@@ -192,65 +173,16 @@ body {
                 line-height: 26px;
                 color: #fff;
             }
-=======
-            justify-content: left;
-            margin-top: 30px;
-            width: fit-content;
->>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
+
         }
 
         .fs-img {
             width: 570px;
             display: flex;
-<<<<<<< HEAD
+
             flex-direction: column;
             flex-grow: 1;
-=======
-            // margin-left: 115px;
-            justify-content: center;
-            align-items: center;
-            height: 54px;
-            width: 241px;
-            background-color: #77b2d3;
-            border-radius: 250px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 26px;
-            color: #fff;
-        }
-        .btn_mid {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 10px;
-            height: 54px;
-            width: 114px;
-            background-color: #77b2d3;
-            border-radius: 250px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 26px;
-            color: #fff;
-        }
-        .btn_right {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 54px;
-            width: 141px;
-            background-color: #77b2d3;
-            border-radius: 250px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 26px;
-            color: #fff;
->>>>>>> 2f36d00f6e9c4099a7a7d47b653b3addeb10a9ff
+
         }
     }
     .fs_img {
