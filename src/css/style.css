@@ -103,19 +103,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1200px;
-  height: 325px;
-  border: 1px solid #000;
+  height: 326px;
+  margin-top: 82px;
 }
 
 .container .first-screen .disign-studio {
+  margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,6 +150,7 @@ body {
 }
 
 .container .first-screen .disign-studio .text-3 {
+  margin-top: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,6 +166,7 @@ body {
 }
 
 .container .first-screen .btns {
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,6 +202,7 @@ body {
 }
 
 .container .first-screen .btns .btn-2 {
+  margin: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,6 +248,7 @@ body {
 
 .container .first-screen .fs-img {
   width: 537px;
+  height: 325px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

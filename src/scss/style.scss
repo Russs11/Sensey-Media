@@ -25,7 +25,6 @@ body {
         width: 100%;
         background-color: #fff;
         display: flex;
-
         align-items: center;
         justify-content: space-around;
         box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
@@ -75,13 +74,15 @@ body {
     .first-screen {
         display: flex;
         // align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         width: 1200px;
-        height: 325px;
-        border: 1px solid #000;
+        height: 326px;
+        margin-top: 82px;
+        // border: 1px solid #000;
 
         .disign-studio {
+            margin-top: 25px;
             display: flex;
             flex-direction: column;
             // justify-content: space-between;
@@ -106,6 +107,7 @@ body {
                 color: #333333;
             }
             .text-3 {
+                margin-top: 14px;
                 display: flex;
                 flex-grow: 1;
                 font-family: "Manrope";
@@ -118,9 +120,11 @@ body {
         }
 
         .btns {
+            margin-top: 30px;
             display: flex;
             flex-direction: row;
             flex-grow: 1;
+            
 
             .btn-1 {
                 display: flex;
@@ -139,6 +143,7 @@ body {
             }
 
             .btn-2 {
+                margin: 0 10px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -172,6 +177,7 @@ body {
         }
         .fs-img {
             width: 537px;
+            height: 325px;
             display: flex;
             flex-grow: 1;
         }
