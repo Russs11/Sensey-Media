@@ -297,13 +297,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.container .numbers .groups .group-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-weight: 800px;
   font-size: 50px;
   line-height: 48px;
+}
+
+.container .numbers .groups .line-1,
+.container .numbers .groups .line-2,
+.container .numbers .groups .line-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #c7c7c7;
+  height: 85px;
 }
