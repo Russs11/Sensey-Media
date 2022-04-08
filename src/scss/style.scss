@@ -27,8 +27,8 @@ body {
         display: flex;
         justify-content: center;
         box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
-        
-        &-wrapper{
+
+        &-wrapper {
             width: 1200px;
             display: flex;
             align-items: center;
@@ -47,7 +47,7 @@ body {
                 // position: absolute;
                 width: 385px;
                 height: 24px;
-    
+
                 a {
                     text-decoration: none;
                     font-family: "manrope";
@@ -58,7 +58,7 @@ body {
                     color: #333333;
                 }
             }
-    
+
             &-btn {
                 display: flex;
                 justify-content: center;
@@ -173,7 +173,52 @@ body {
             width: 537px;
             height: 325px;
             display: flex;
-            
+        }
+    }
+    .numbers {
+        width: 1200px;
+        height: 255px;
+        // border: 1px solid #000;
+        display: flex;
+        margin-top: 90px;
+        flex-direction: column;
+        background: #ffffff;
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+        border-radius: 20px;
+        justify-content: space-around;
+
+        .bisness {
+            height: 48px;
+            margin-top: 40px;
+            margin-left: 55px;
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 48px;
+        }
+        .groups {
+            display: flex;
+            // flex-direction: row;
+            justify-content: space-around;
+            .group-1,
+            .group-2,
+            .group-3,
+            .group-4 {
+                display: flex;
+                font-family: "Manrope";
+                font-style: normal;
+                background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .group-1 {
+                display: flex;
+                font-weight: 800px;
+                font-size: 50px;
+                line-height: 48px;
+            }
         }
     }
 }
