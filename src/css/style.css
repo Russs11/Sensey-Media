@@ -1,6 +1,11 @@
 @font-face {
   font-family: "manrope";
-  src: url("../fonts/Manrope/Manrope-VariableFont_wght.ttf");
+  src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "manrope-extra-bold";
+  src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf");
 }
 
 * {
@@ -140,7 +145,7 @@ body {
 }
 
 .container .first-screen .disign-studio .text-1 {
-  font-family: "Manrope";
+  font-family: "manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
@@ -149,7 +154,7 @@ body {
 }
 
 .container .first-screen .disign-studio .text-2 {
-  font-family: "Manrope";
+  font-family: "manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 55px;
@@ -165,7 +170,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  font-family: "Manrope";
+  font-family: "manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -265,11 +270,11 @@ body {
       justify-content: space-around;
 }
 
-.container .numbers .bisness {
+.container .numbers .head-bisness {
   height: 48px;
   margin-top: 40px;
   margin-left: 55px;
-  font-family: "Manrope";
+  font-family: "manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 38px;
@@ -291,7 +296,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Manrope";
+  font-family: "manrope-extra-bold";
   font-style: normal;
   background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
   -webkit-background-clip: text;
@@ -300,6 +305,24 @@ body {
   display: flex;
   font-weight: 800px;
   font-size: 50px;
+  line-height: 48px;
+}
+
+.container .numbers .groups .group-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .numbers .groups .small-font {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 30px;
   line-height: 48px;
 }
 

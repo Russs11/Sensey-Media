@@ -1,6 +1,18 @@
 @font-face {
     font-family: "manrope";
-    src: url("../fonts/Manrope/Manrope-VariableFont_wght.ttf");
+    src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
+    // font-family: "manrope-bold";
+    // src:url("..//fonts/Manrope/static/Manrope-Bold.ttf");
+    // font-family: "manrope-semibold";
+    // src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
+}
+@font-face {
+    font-family: "manrope-extra-bold";
+    src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf");
+    // font-family: "manrope-bold";
+    // src:url("..//fonts/Manrope/static/Manrope-Bold.ttf");
+    // font-family: "manrope-semibold";
+    // src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
 }
 * {
     box-sizing: border-box;
@@ -97,7 +109,7 @@ body {
             height: 127px;
 
             .text-1 {
-                font-family: "Manrope";
+                font-family: "manrope";
                 font-style: normal;
                 font-weight: 800;
                 font-size: 45px;
@@ -105,7 +117,7 @@ body {
                 color: #333333;
             }
             .text-2 {
-                font-family: "Manrope";
+                font-family: "manrope";
                 font-style: normal;
                 font-weight: 500;
                 font-size: 55px;
@@ -116,7 +128,7 @@ body {
                 margin-top: 14px;
                 display: flex;
                 flex-grow: 1;
-                font-family: "Manrope";
+                font-family: "manrope";
                 font-style: normal;
                 font-weight: 600;
                 font-size: 16px;
@@ -187,11 +199,11 @@ body {
         border-radius: 20px;
         justify-content: space-around;
 
-        .bisness {
+        .head-bisness {
             height: 48px;
             margin-top: 40px;
             margin-left: 55px;
-            font-family: "Manrope";
+            font-family: "manrope";
             font-style: normal;
             font-weight: 700;
             font-size: 38px;
@@ -199,14 +211,13 @@ body {
         }
         .groups {
             display: flex;
-            // flex-direction: row;
             justify-content: space-around;
             .group-1,
             .group-2,
             .group-3,
             .group-4 {
                 display: flex;
-                font-family: "Manrope";
+                font-family: "manrope-extra-bold";
                 font-style: normal;
                 background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
                 -webkit-background-clip: text;
@@ -218,6 +229,24 @@ body {
                 line-height: 48px;
             }
             .group-1 {
+                // margin-left: 55px;
+                display: flex;
+            }
+            // .regular {
+            //     display: flex;
+            //     flex-direction: column;
+            //     font-family: "manrope";
+            //     font-style: normal;
+            //     font-weight: 500;
+            //     font-size: 16px;
+            //     line-height: 24px;
+            // }
+            .small-font {
+                display: flex;
+                margin: 8px 5px;
+                justify-content: space-between;
+                font-size: 30px;
+                line-height: 48px;
             }
             .line-1,
             .line-2,
