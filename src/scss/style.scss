@@ -305,7 +305,9 @@ body {
             }
             .white-screen {
                 display: flex;
-                padding-left: 35px;
+                flex-direction: column;
+                align-items: center;
+                // padding-left: 35px;
 
                 .list {
                     margin-top: 18px;
@@ -317,7 +319,11 @@ body {
                     list-style: url("../img/list.svg");
                 }
                 .hori-line {
-                    border-bottom: 1px solid #e2e2e2;
+                    display: flex;
+                    justify-content: center;
+                    width: 210px;
+                    margin-top: 20px;
+                    border: 1px solid #e2e2e2;
                 }
             }
         }
