@@ -145,7 +145,7 @@ body {
 }
 
 .container .first-screen .disign-studio .text-1 {
-  font-family: "manrope";
+  font-family: "manrope-extra-bold";
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
@@ -285,8 +285,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container .numbers .groups .group-1,
@@ -309,9 +310,14 @@ body {
 }
 
 .container .numbers .groups .group-1 {
+  margin-left: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.container .numbers .groups .group-4 {
+  margin-right: 70px;
 }
 
 .container .numbers .groups .small-font {

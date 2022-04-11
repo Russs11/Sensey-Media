@@ -109,7 +109,7 @@ body {
             height: 127px;
 
             .text-1 {
-                font-family: "manrope";
+                font-family: "manrope-extra-bold";
                 font-style: normal;
                 font-weight: 800;
                 font-size: 45px;
@@ -211,7 +211,7 @@ body {
         }
         .groups {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             .group-1,
             .group-2,
             .group-3,
@@ -229,8 +229,11 @@ body {
                 line-height: 48px;
             }
             .group-1 {
-                // margin-left: 55px;
+                margin-left: 55px;
                 display: flex;
+            }
+            .group-4 {
+                margin-right: 70px;
             }
             // .regular {
             //     display: flex;
