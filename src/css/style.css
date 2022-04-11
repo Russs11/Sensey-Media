@@ -8,6 +8,11 @@
   src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: "manrope-bold";
+  src: url("../fonts/Manrope/static/Manrope-Bold.ttf");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17,7 +22,7 @@
 
 html,
 body {
-  height: 100%;
+  margin-bottom: 500px;
 }
 
 .container {
@@ -35,6 +40,7 @@ body {
   height: 100%;
   margin: 0 auto;
   background-color: #f7f6ff;
+  margin-bottom: 500px;
 }
 
 .container .header {
@@ -251,7 +257,7 @@ body {
   display: flex;
 }
 
-.container .numbers {
+.container .numbers-screen {
   width: 1200px;
   height: 255px;
   display: -webkit-box;
@@ -271,7 +277,7 @@ body {
   padding: 55px;
 }
 
-.container .numbers .head-bisness {
+.container .numbers-screen .head-bisness {
   height: 48px;
   font-family: "manrope";
   font-style: normal;
@@ -280,7 +286,7 @@ body {
   line-height: 48px;
 }
 
-.container .numbers .groups {
+.container .numbers-screen .groups {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,7 +296,7 @@ body {
   margin-top: 35px;
 }
 
-.container .numbers .groups .group-item {
+.container .numbers-screen .groups .group-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,7 +307,7 @@ body {
   font-style: normal;
 }
 
-.container .numbers .groups .group-item .group-1 {
+.container .numbers-screen .groups .group-item .group-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,21 +324,109 @@ body {
   line-height: 48px;
 }
 
-.container .numbers .groups .group-item .group-1 span {
+.container .numbers-screen .groups .group-item .group-1 span {
   font-size: 30px;
 }
 
-.container .numbers .groups .group-item .group-2 {
+.container .numbers-screen .groups .group-item .group-2 {
   font-family: "manrope";
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
 
-.container .numbers .groups .line {
+.container .numbers-screen .groups .line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #c7c7c7;
   height: 85px;
+}
+
+.container .service-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1200px;
+  height: 540px;
+  margin-top: 75px;
+  border: 1px solid #000;
+}
+
+.container .service-screen .our-service {
+  font-family: "Manrope-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.container .service-screen .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 220px;
+  height: 380px;
+  margin-top: 40px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+
+.container .service-screen .card .blue-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 10px;
+  height: 75px;
+  background: #77b2d3;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px 15px 0px 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container .service-screen .card .white-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 35px;
+}
+
+.container .service-screen .card .white-screen .list {
+  margin-top: 18px;
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  list-style: url("../img/list.svg");
+}
+
+.container .service-screen .card .white-screen .hori-line {
+  border-bottom: 1px solid #e2e2e2;
 }
