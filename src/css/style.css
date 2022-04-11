@@ -268,12 +268,11 @@ body {
   border-radius: 20px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 55px;
 }
 
 .container .numbers .head-bisness {
   height: 48px;
-  margin-top: 40px;
-  margin-left: 55px;
   font-family: "manrope";
   font-style: normal;
   font-weight: 700;
@@ -288,53 +287,49 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 35px;
 }
 
-.container .numbers .groups .group-1,
-.container .numbers .groups .group-2,
-.container .numbers .groups .group-3,
-.container .numbers .groups .group-4 {
+.container .numbers .groups .group-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "manrope-extra-bold";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-style: normal;
+}
+
+.container .numbers .groups .group-item .group-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-family: "manrope-extra-bold";
   background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  display: flex;
   font-weight: 800px;
   font-size: 50px;
   line-height: 48px;
 }
 
-.container .numbers .groups .group-1 {
-  margin-left: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.container .numbers .groups .group-4 {
-  margin-right: 70px;
-}
-
-.container .numbers .groups .small-font {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 8px 5px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.container .numbers .groups .group-item .group-1 span {
   font-size: 30px;
-  line-height: 48px;
 }
 
-.container .numbers .groups .line-1,
-.container .numbers .groups .line-2,
-.container .numbers .groups .line-3 {
+.container .numbers .groups .group-item .group-2 {
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container .numbers .groups .line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

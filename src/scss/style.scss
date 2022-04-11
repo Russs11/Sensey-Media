@@ -190,7 +190,6 @@ body {
     .numbers {
         width: 1200px;
         height: 255px;
-        // border: 1px solid #000;
         display: flex;
         margin-top: 90px;
         flex-direction: column;
@@ -198,11 +197,10 @@ body {
         box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
         border-radius: 20px;
         justify-content: space-around;
+        padding: 55px;
 
         .head-bisness {
             height: 48px;
-            margin-top: 40px;
-            margin-left: 55px;
             font-family: "manrope";
             font-style: normal;
             font-weight: 700;
@@ -212,48 +210,38 @@ body {
         .groups {
             display: flex;
             justify-content: space-between;
-            .group-1,
-            .group-2,
-            .group-3,
-            .group-4 {
+            margin-top: 35px;
+
+            .group-item {
                 display: flex;
-                font-family: "manrope-extra-bold";
+                flex-direction: column;
                 font-style: normal;
-                background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                display: flex;
-                font-weight: 800px;
-                font-size: 50px;
-                line-height: 48px;
+                .group-1 {
+                    display: flex;
+                    align-items: baseline;
+                    // justify-content: space-between;
+                    font-family: "manrope-extra-bold";
+
+                    background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    font-weight: 800px;
+                    font-size: 50px;
+                    line-height: 48px;
+                    span {
+                        font-size: 30px;
+                    }
+                }
+                .group-2 {
+                    font-family: "manrope";
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
             }
-            .group-1 {
-                margin-left: 55px;
-                display: flex;
-            }
-            .group-4 {
-                margin-right: 70px;
-            }
-            // .regular {
-            //     display: flex;
-            //     flex-direction: column;
-            //     font-family: "manrope";
-            //     font-style: normal;
-            //     font-weight: 500;
-            //     font-size: 16px;
-            //     line-height: 24px;
-            // }
-            .small-font {
-                display: flex;
-                margin: 8px 5px;
-                justify-content: space-between;
-                font-size: 30px;
-                line-height: 48px;
-            }
-            .line-1,
-            .line-2,
-            .line-3 {
+
+            .line {
                 display: flex;
                 border: 1px solid #c7c7c7;
                 height: 85px;
