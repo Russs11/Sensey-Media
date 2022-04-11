@@ -422,6 +422,11 @@ body {
 }
 
 .container .service-screen .card .white-screen .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-top: 18px;
   font-family: "manrope";
   font-weight: 500;
@@ -429,6 +434,19 @@ body {
   line-height: 24px;
   color: #333333;
   list-style: url("../img/list.svg");
+}
+
+.container .service-screen .card .white-screen .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 35px;
 }
 
 .container .service-screen .card .white-screen .hr-line {
@@ -454,6 +472,7 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  margin-left: 15px;
 }
 
 .container .service-screen .card .white-screen .price-text .price {
@@ -467,7 +486,7 @@ body {
   line-height: 48px;
 }
 
-.container .service-screen .card .white-screen .price-text .t2 {
+.container .service-screen .card .white-screen .price-text .text {
   margin-left: 5px;
   font-family: "manrope";
   font-weight: 500;
