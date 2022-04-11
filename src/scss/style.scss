@@ -260,6 +260,7 @@ body {
     .service-screen {
         display: flex;
         flex-direction: column;
+        // align-items: center;
         width: 1200px;
         height: 540px;
         margin-top: 75px;
@@ -306,7 +307,8 @@ body {
             .white-screen {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                // align-items: center;
+                height: 100%;
                 // padding-left: 35px;
 
                 .list {
@@ -318,15 +320,45 @@ body {
                     color: #333333;
                     list-style: url("../img/list.svg");
                 }
-                .hori-line {
+                .hr-line {
                     display: flex;
                     justify-content: center;
                     width: 210px;
                     margin-top: 20px;
                     border: 1px solid #e2e2e2;
                 }
+                .price-text {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: baseline;
+
+                    .price {
+                        font-family: "manrope-extra-bold";
+                        background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        font-weight: 800px;
+                        font-size: 30px;
+                        line-height: 48px;
+
+                        
+                    }
+                    .t2 {
+                        margin-left: 5px;
+                        font-family: "manrope";
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #333333;
+                    }
+                }
             }
         }
+    }
+    .header-wrapper-btn {
+        display: flex;
+        margin-top: 20px;
     }
 
     margin-bottom: 500px;

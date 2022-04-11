@@ -418,9 +418,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 100%;
 }
 
 .container .service-screen .card .white-screen .list {
@@ -433,7 +431,7 @@ body {
   list-style: url("../img/list.svg");
 }
 
-.container .service-screen .card .white-screen .hori-line {
+.container .service-screen .card .white-screen .hr-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -443,4 +441,44 @@ body {
   width: 210px;
   margin-top: 20px;
   border: 1px solid #e2e2e2;
+}
+
+.container .service-screen .card .white-screen .price-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container .service-screen .card .white-screen .price-text .price {
+  font-family: "manrope-extra-bold";
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800px;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.container .service-screen .card .white-screen .price-text .t2 {
+  margin-left: 5px;
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.container .header-wrapper-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
 }
