@@ -260,7 +260,6 @@ body {
     .service-screen {
         display: flex;
         flex-direction: column;
-        // align-items: center;
         width: 1200px;
         height: 540px;
         margin-top: 75px;
@@ -277,97 +276,105 @@ body {
         }
         .card {
             display: flex;
+            justify-content: space-around;
             flex-direction: column;
 
-            width: 220px;
-            height: 380px;
-            margin-top: 40px;
-            background-color: #fff;
-            box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
-            border-radius: 15px;
-
-            .blue-screen {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 20px 10px;
-                height: 75px;
-                background: #77b2d3;
-                box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
-                border-radius: 15px 15px 0px 0px;
-                font-family: "Manrope";
-                font-style: normal;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 26px;
-                text-align: center;
-                text-transform: uppercase;
-                color: #ffffff;
-            }
-            .white-screen {
+            .card-1 {
                 display: flex;
                 flex-direction: column;
 
-                // align-items: center;
-                height: 100%;
-                // padding-left: 35px;
+                width: 220px;
+                height: 380px;
+                margin-top: 40px;
+                background-color: #fff;
+                box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                border-radius: 15px;
 
-                .list {
+                .blue-screen {
                     display: flex;
-                    justify-content: space-around;
-
-                    margin-top: 18px;
-                    font-family: "manrope";
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: #333333;
-                    list-style: url("../img/list.svg");
-                    ul {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        margin-left: 35px;
-                    }
-                }
-                .hr-line {
-                    display: flex;
+                    align-items: center;
                     justify-content: center;
-                    width: 210px;
-                    margin-top: 20px;
-                    border: 1px solid #e2e2e2;
+                    padding: 20px 10px;
+                    height: 75px;
+                    background: #77b2d3;
+                    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                    border-radius: 15px 15px 0px 0px;
+                    font-family: "Manrope";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 26px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #ffffff;
                 }
-                .price-text {
+                .white-screen {
                     display: flex;
-                    flex-direction: row;
-                    align-items: baseline;
-                    margin-left: 15px;
+                    flex-direction: column;
 
-                    .price {
-                        font-family: "manrope-extra-bold";
-                        background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        background-clip: text;
-                        font-weight: 800px;
-                        font-size: 30px;
-                        line-height: 48px;
-                    }
-                    .text {
-                        margin-left: 5px;
+                    // align-items: center;
+                    height: 100%;
+                    // padding-left: 35px;
+
+                    .list {
+                        display: flex;
+                        justify-content: space-around;
+
+                        margin-top: 18px;
                         font-family: "manrope";
                         font-weight: 500;
                         font-size: 16px;
                         line-height: 24px;
                         color: #333333;
+                        list-style: url("../img/list.svg");
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            margin-left: 35px;
+                        }
+                    }
+                    .hr-line {
+                        display: flex;
+                        justify-content: center;
+                        width: 210px;
+                        margin-top: 20px;
+                        border: 1px solid #e2e2e2;
+                    }
+                    .price-text {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: baseline;
+                        margin-left: 15px;
+
+                        .price {
+                            font-family: "manrope-extra-bold";
+                            background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                            font-weight: 800px;
+                            font-size: 30px;
+                            line-height: 48px;
+                        }
+                        .text {
+                            margin-left: 5px;
+                            font-family: "manrope";
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #333333;
+                        }
                     }
                 }
             }
+            .header-wrapper-btn {
+                display: flex;
+                margin-top: 20px;
+                justify-content: center;
+                align-items: center;
+            }
         }
-    }
-    .header-wrapper-btn {
-        display: flex;
-        margin-top: 20px;
     }
 
     margin-bottom: 500px;

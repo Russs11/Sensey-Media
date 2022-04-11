@@ -371,6 +371,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .service-screen .card .card-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -384,7 +396,7 @@ body {
   border-radius: 15px;
 }
 
-.container .service-screen .card .blue-screen {
+.container .service-screen .card .card-1 .blue-screen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +422,7 @@ body {
   color: #ffffff;
 }
 
-.container .service-screen .card .white-screen {
+.container .service-screen .card .card-1 .white-screen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,7 +433,7 @@ body {
   height: 100%;
 }
 
-.container .service-screen .card .white-screen .list {
+.container .service-screen .card .card-1 .white-screen .list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,7 +448,7 @@ body {
   list-style: url("../img/list.svg");
 }
 
-.container .service-screen .card .white-screen .list ul {
+.container .service-screen .card .card-1 .white-screen .list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +461,7 @@ body {
   margin-left: 35px;
 }
 
-.container .service-screen .card .white-screen .hr-line {
+.container .service-screen .card .card-1 .white-screen .hr-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,7 +473,7 @@ body {
   border: 1px solid #e2e2e2;
 }
 
-.container .service-screen .card .white-screen .price-text {
+.container .service-screen .card .card-1 .white-screen .price-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,7 +487,7 @@ body {
   margin-left: 15px;
 }
 
-.container .service-screen .card .white-screen .price-text .price {
+.container .service-screen .card .card-1 .white-screen .price-text .price {
   font-family: "manrope-extra-bold";
   background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
   -webkit-background-clip: text;
@@ -486,7 +498,7 @@ body {
   line-height: 48px;
 }
 
-.container .service-screen .card .white-screen .price-text .text {
+.container .service-screen .card .card-1 .white-screen .price-text .text {
   margin-left: 5px;
   font-family: "manrope";
   font-weight: 500;
@@ -495,9 +507,15 @@ body {
   color: #333333;
 }
 
-.container .header-wrapper-btn {
+.container .service-screen .card .header-wrapper-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
