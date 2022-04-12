@@ -527,3 +527,56 @@ body {
 .container .service-screen .cards .card .mt {
   margin-top: 20px;
 }
+
+.container .contact-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  height: 515px;
+  margin-top: 90px;
+  border: 1px solid #333333;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .contact-screen .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .contact-screen .right-side {
+  position: relative;
+  width: 570px;
+  height: 511px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.container .contact-screen .right-side .circle {
+  position: absolute;
+  top: 50px;
+  right: 44px;
+  z-index: 5;
+}
+
+.container .contact-screen .right-side .man {
+  position: absolute;
+  top: 94px;
+  left: 33px;
+  z-index: 10;
+}
+
+.container .contact-screen .right-side .phone {
+  position: absolute;
+  top: 37px;
+  left: 30px;
+}
