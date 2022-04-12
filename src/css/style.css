@@ -354,7 +354,6 @@ body {
   width: 1200px;
   height: 540px;
   margin-top: 75px;
-  border: 1px solid #000;
 }
 
 .container .service-screen .our-service {
@@ -367,19 +366,17 @@ body {
   text-transform: uppercase;
 }
 
-.container .service-screen .card {
+.container .service-screen .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
 }
 
-.container .service-screen .card .card-1 {
+.container .service-screen .cards .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,16 +384,31 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 220px;
-  height: 380px;
-  margin-top: 40px;
+}
+
+.container .service-screen .cards .card .card-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   background-color: #fff;
   -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
+  height: 380px;
 }
 
-.container .service-screen .card .card-1 .blue-screen {
+.container .service-screen .cards .card .card-main .blue-screen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,46 +434,29 @@ body {
   color: #ffffff;
 }
 
-.container .service-screen .card .card-1 .white-screen {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-}
-
-.container .service-screen .card .card-1 .white-screen .list {
+.container .service-screen .cards .card .card-main .list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin-top: 18px;
   font-family: "manrope";
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #333333;
   list-style: url("../img/list.svg");
 }
 
-.container .service-screen .card .card-1 .white-screen .list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.container .service-screen .cards .card .card-main .list ul {
   margin-left: 35px;
 }
 
-.container .service-screen .card .card-1 .white-screen .hr-line {
+.container .service-screen .cards .card .card-main .hr-line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,7 +468,7 @@ body {
   border: 1px solid #e2e2e2;
 }
 
-.container .service-screen .card .card-1 .white-screen .price-text {
+.container .service-screen .cards .card .card-main .price-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,7 +482,7 @@ body {
   margin-left: 15px;
 }
 
-.container .service-screen .card .card-1 .white-screen .price-text .price {
+.container .service-screen .cards .card .card-main .price-text .price {
   font-family: "manrope-extra-bold";
   background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
   -webkit-background-clip: text;
@@ -498,7 +493,7 @@ body {
   line-height: 48px;
 }
 
-.container .service-screen .card .card-1 .white-screen .price-text .text {
+.container .service-screen .cards .card .card-main .price-text .text {
   margin-left: 5px;
   font-family: "manrope";
   font-weight: 500;
@@ -507,15 +502,28 @@ body {
   color: #333333;
 }
 
-.container .service-screen .card .header-wrapper-btn {
+.container .service-screen .cards .card .card-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 14px 50px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 195px;
+}
+
+.container .service-screen .cards .card .mt {
+  margin-top: 20px;
 }
