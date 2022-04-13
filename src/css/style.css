@@ -535,7 +535,6 @@ body {
   width: 1200px;
   height: 515px;
   margin-top: 90px;
-  border: 1px solid #333333;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -602,14 +601,54 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   width: 270px;
   height: 60px;
   border: none;
   -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
   border-radius: 7px;
+  margin-top: 22px;
+}
+
+.container .contact-screen .left-side .form-group-2 textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 570px;
+  height: 141px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+}
+
+.container .contact-screen .left-side .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container .contact-screen .left-side .checkbox .checkbox-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+}
+
+.container .contact-screen .left-side .checkbox .text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin-left: 12px;
 }
 
 .container .contact-screen .right-side {

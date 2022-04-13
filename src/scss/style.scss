@@ -399,7 +399,7 @@ body {
         width: 1200px;
         height: 515px;
         margin-top: 90px;
-        border: 1px solid #333333;
+        // border: 1px solid #333333;
         justify-content: space-between;
         .left-side {
             display: flex;
@@ -439,12 +439,55 @@ body {
 
                 input {
                     display: flex;
-                    justify-content: space-around;
                     width: 270px;
                     height: 60px;
                     border: none;
                     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
                     border-radius: 7px;
+                    margin-top: 22px;
+                }
+            }
+            .form-group-2 {
+                // input {
+                //     display: flex;
+                //     margin-top: 20px;
+                //     width: 570px;
+                //     height: 141px;
+                //     border: none;
+                //     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                //     border-radius: 7px;
+                // }
+                textarea {
+                    display: flex;
+                    margin-top: 20px;
+                    width: 570px;
+                    height: 141px;
+                    border: none;
+                    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                    border-radius: 7px;
+                }
+            }
+
+            .checkbox {
+                display: flex;
+                margin-top: 20px;
+                // flex-direction: row;
+
+                .checkbox-style {
+                    display: flex;
+                    width: 32px;
+                    height: 32px;
+                    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                    border-radius: 2px;
+                }
+                .text {
+                    font-family: "Manrope";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333333;
+                    margin-left: 12px;
                 }
             }
         }
