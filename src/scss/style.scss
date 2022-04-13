@@ -404,6 +404,49 @@ body {
         .left-side {
             display: flex;
             flex-direction: column;
+            width: 570px;
+            // flex-grow: 1;
+
+            .text-1 {
+                font-family: "Manrope-bold";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 48px;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            .text-2 {
+                font-family: "manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333333;
+                margin-top: 22px;
+            }
+            .row {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .form-group {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                input {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 270px;
+                    height: 60px;
+                    border: none;
+                    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                    border-radius: 7px;
+                }
+            }
         }
         .right-side {
             position: relative;
@@ -412,9 +455,8 @@ body {
             background-color: #fff;
             box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
             border-radius: 20px;
-            //
+
             .circle {
-                // width: 100%;
                 position: absolute;
                 top: 50px;
                 right: 44px;
@@ -433,5 +475,6 @@ body {
             }
         }
     }
+
     margin-bottom: 500px;
 }
