@@ -651,6 +651,30 @@ body {
   margin-left: 12px;
 }
 
+.container .contact-screen .left-side .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 50px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 195px;
+  height: 54px;
+  margin-top: 20px;
+}
+
 .container .contact-screen .right-side {
   position: relative;
   width: 570px;

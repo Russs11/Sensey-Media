@@ -405,7 +405,7 @@ body {
             display: flex;
             flex-direction: column;
             width: 570px;
-            // flex-grow: 1;
+            
 
             .text-1 {
                 font-family: "Manrope-bold";
@@ -489,6 +489,12 @@ body {
                     color: #333333;
                     margin-left: 12px;
                 }
+            }
+            .contact-btn{
+                @include btnDefault;
+                width: 195px;
+                height: 54px;
+                margin-top: 20px;
             }
         }
         .right-side {
