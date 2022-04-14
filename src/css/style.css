@@ -789,9 +789,12 @@ body {
 .container .cases-screen .cards-arrows .left-screen .up-side {
   width: 100%;
   padding-left: 25px;
+  padding-top: 10px;
 }
 
 .container .cases-screen .cards-arrows .left-screen .up-side p {
+  padding-top: 4px;
+  padding-bottom: 25px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
@@ -839,6 +842,8 @@ body {
 }
 
 .container .cases-screen .cards-arrows .right-screen .up-side p {
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
