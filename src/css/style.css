@@ -597,7 +597,7 @@ body {
           align-items: center;
 }
 
-.container .contact-screen .left-side .row input {
+.container .contact-screen .left-side .row .form-group input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,6 +608,7 @@ body {
           box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
   border-radius: 7px;
   margin-top: 22px;
+  padding-left: 20px;
 }
 
 .container .contact-screen .left-side .form-group-2 textarea {

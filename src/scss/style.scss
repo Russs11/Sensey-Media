@@ -405,7 +405,6 @@ body {
             display: flex;
             flex-direction: column;
             width: 570px;
-            
 
             .text-1 {
                 font-family: "Manrope-bold";
@@ -435,28 +434,20 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                }
 
-                input {
-                    display: flex;
-                    width: 270px;
-                    height: 60px;
-                    border: none;
-                    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
-                    border-radius: 7px;
-                    margin-top: 22px;
+                    input {
+                        display: flex;
+                        width: 270px;
+                        height: 60px;
+                        border: none;
+                        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+                        border-radius: 7px;
+                        margin-top: 22px;
+                        padding-left: 20px;
+                    }
                 }
             }
             .form-group-2 {
-                // input {
-                //     display: flex;
-                //     margin-top: 20px;
-                //     width: 570px;
-                //     height: 141px;
-                //     border: none;
-                //     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
-                //     border-radius: 7px;
-                // }
                 textarea {
                     display: flex;
                     margin-top: 20px;
@@ -465,6 +456,10 @@ body {
                     border: none;
                     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
                     border-radius: 7px;
+
+                    // .placeholder {
+                    //     display: flex;
+                    // }
                 }
             }
 
@@ -490,7 +485,7 @@ body {
                     margin-left: 12px;
                 }
             }
-            .contact-btn{
+            .contact-btn {
                 @include btnDefault;
                 width: 195px;
                 height: 54px;
