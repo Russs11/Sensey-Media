@@ -771,6 +771,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -780,6 +784,20 @@ body {
   -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .up-side {
+  width: 100%;
+  padding-left: 25px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .up-side p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
 }
 
 .container .cases-screen .cards-arrows .left-screen .middle-side {
@@ -791,10 +809,18 @@ body {
   background-color: #f3f1fe;
 }
 
+.container .cases-screen .cards-arrows .left-screen .down-side {
+  width: 100%;
+}
+
 .container .cases-screen .cards-arrows .right-screen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -806,6 +832,21 @@ body {
   border-radius: 15px;
 }
 
+.container .cases-screen .cards-arrows .right-screen .up-side {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 40px;
+}
+
+.container .cases-screen .cards-arrows .right-screen .up-side p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
 .container .cases-screen .cards-arrows .right-screen .middle-side {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -813,6 +854,10 @@ body {
   width: 100%;
   height: 160px;
   background-color: #f3f1fe;
+}
+
+.container .cases-screen .cards-arrows .right-screen .down-side {
+  width: 100%;
 }
 
 .container .cases-screen .cards-arrows .right-arrow {
