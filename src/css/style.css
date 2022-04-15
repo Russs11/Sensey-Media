@@ -811,20 +811,21 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   height: 160px;
   background-color: #f3f1fe;
   padding: 20px 35px 25px 28px;
 }
 
-.container .cases-screen .cards-arrows .left-screen .middle-side .m_header,
-.container .cases-screen .cards-arrows .left-screen .middle-side .m_numbers {
+.container .cases-screen .cards-arrows .left-screen .middle-side .m_header, .container .cases-screen .cards-arrows .left-screen .middle-side .first_col, .container .cases-screen .cards-arrows .left-screen .middle-side .second_col, .container .cases-screen .cards-arrows .left-screen .middle-side .third_col {
   font-family: "Manrope-extra-bold";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 26px;
-  text-transform: uppercase;
   color: #333333;
 }
 
@@ -832,47 +833,44 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .first_col, .container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col, .container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
 }
 
-.container .cases-screen .cards-arrows .left-screen .middle-side .column .m_numbers {
+.container .cases-screen .cards-arrows .left-screen .middle-side .column span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.container .cases-screen .cards-arrows .left-screen .middle-side .column .m_numbers span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #333333;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container .cases-screen .cards-arrows .left-screen .down-side {
