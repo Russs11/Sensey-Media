@@ -13,6 +13,11 @@
   src: url("../fonts/Manrope/static/Manrope-Bold.ttf");
 }
 
+@font-face {
+  font-family: "manrope-semi-bold";
+  src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -819,7 +824,10 @@ body {
   padding: 20px 35px 25px 28px;
 }
 
-.container .cases-screen .cards-arrows .left-screen .middle-side .m_header, .container .cases-screen .cards-arrows .left-screen .middle-side .first_col, .container .cases-screen .cards-arrows .left-screen .middle-side .second_col, .container .cases-screen .cards-arrows .left-screen .middle-side .third_col {
+.container .cases-screen .cards-arrows .left-screen .middle-side .m_header,
+.container .cases-screen .cards-arrows .left-screen .middle-side .first_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .second_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .third_col {
   font-family: "Manrope-extra-bold";
   font-style: normal;
   font-weight: 800;
@@ -838,7 +846,9 @@ body {
           flex-direction: row;
 }
 
-.container .cases-screen .cards-arrows .left-screen .middle-side .column .first_col, .container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col, .container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .first_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -964,7 +974,10 @@ body {
   padding: 20px 35px 25px 28px;
 }
 
-.container .cases-screen .cards-arrows .right-screen .middle-side .m_header, .container .cases-screen .cards-arrows .right-screen .middle-side .first_col, .container .cases-screen .cards-arrows .right-screen .middle-side .second_col, .container .cases-screen .cards-arrows .right-screen .middle-side .third_col {
+.container .cases-screen .cards-arrows .right-screen .middle-side .m_header,
+.container .cases-screen .cards-arrows .right-screen .middle-side .first_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .second_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .third_col {
   font-family: "Manrope-extra-bold";
   font-style: normal;
   font-weight: 800;
@@ -983,7 +996,9 @@ body {
           flex-direction: row;
 }
 
-.container .cases-screen .cards-arrows .right-screen .middle-side .column .first_col, .container .cases-screen .cards-arrows .right-screen .middle-side .column .second_col, .container .cases-screen .cards-arrows .right-screen .middle-side .column .third_col {
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .first_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .second_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .third_col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1059,4 +1074,66 @@ body {
 .container .cases-screen .cards-arrows .right-arrow {
   width: 40px;
   height: 40px;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 365px;
+  border: 1px solid #000;
+  background: #fff;
+  margin-top: 90px;
+}
+
+.container .footer .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .footer .footer-wrapper .serv-header, .container .footer .footer-wrapper .info-header {
+  font-family: "manrope-semi-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.container .footer .footer-wrapper a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.container .footer .footer-wrapper .footer-info, .container .footer .footer-wrapper .footer-servises {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
 }
