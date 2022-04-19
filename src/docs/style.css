@@ -1,0 +1,1223 @@
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/Manrope/static/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: "manrope-extra-bold";
+  src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "manrope-bold";
+  src: url("../fonts/Manrope/static/Manrope-Bold.ttf");
+}
+
+@font-face {
+  font-family: "manrope-semi-bold";
+  src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin-bottom: 500px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f7f6ff;
+}
+
+.container .header {
+  height: 85px;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.container .header-wrapper {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .header-wrapper-logo {
+  width: 325px;
+  height: 70px;
+  background-image: url("../img/logo.png");
+}
+
+.container .header-wrapper-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 24px;
+  width: 385px;
+  width: 385px;
+  height: 24px;
+}
+
+.container .header-wrapper-menu a {
+  text-decoration: none;
+  font-family: "manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.container .header-wrapper-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 54px;
+  width: 205px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.container .first-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+  height: 326px;
+  margin-top: 82px;
+}
+
+.container .first-screen .disign-studio {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 517px;
+  height: 127px;
+}
+
+.container .first-screen .disign-studio .text-1 {
+  font-family: "manrope-extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 65px;
+  color: #333333;
+}
+
+.container .first-screen .disign-studio .text-2 {
+  font-family: "manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 65px;
+  color: #333333;
+}
+
+.container .first-screen .disign-studio .text-3 {
+  margin-top: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-family: "manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.container .first-screen .btns {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container .first-screen .btns .btn-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .first-screen .btns .btn-2 {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .first-screen .btns .btn-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .first-screen .btns .btn-1,
+.container .first-screen .btns .btn-2,
+.container .first-screen .btns .btn-3 {
+  background-color: #77b2d3;
+  border-radius: 250px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding: 14px 30px;
+}
+
+.container .first-screen .fs-img {
+  width: 537px;
+  height: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .numbers-screen {
+  width: 1200px;
+  height: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 55px;
+}
+
+.container .numbers-screen .head-bisness {
+  height: 48px;
+  font-family: "manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.container .numbers-screen .groups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+}
+
+.container .numbers-screen .groups .group-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-style: normal;
+}
+
+.container .numbers-screen .groups .group-item .group-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-family: "manrope-extra-bold";
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800px;
+  font-size: 50px;
+  line-height: 48px;
+}
+
+.container .numbers-screen .groups .group-item .group-1 span {
+  font-size: 30px;
+}
+
+.container .numbers-screen .groups .group-item .group-2 {
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container .numbers-screen .groups .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #c7c7c7;
+  height: 85px;
+}
+
+.container .service-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1200px;
+  height: 540px;
+  margin-top: 75px;
+}
+
+.container .service-screen .our-service {
+  font-family: "Manrope-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.container .service-screen .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.container .service-screen .cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 220px;
+}
+
+.container .service-screen .cards .card .card-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  height: 380px;
+}
+
+.container .service-screen .cards .card .card-main .blue-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 10px;
+  height: 75px;
+  background: #77b2d3;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px 15px 0px 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container .service-screen .cards .card .card-main .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 18px;
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333333;
+  list-style: url("../img/list.svg");
+}
+
+.container .service-screen .cards .card .card-main .list ul {
+  margin-left: 35px;
+}
+
+.container .service-screen .cards .card .card-main .hr-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 210px;
+  margin-top: 20px;
+  border: 1px solid #e2e2e2;
+}
+
+.container .service-screen .cards .card .card-main .price-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: 15px;
+}
+
+.container .service-screen .cards .card .card-main .price-text .price {
+  font-family: "manrope-extra-bold";
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800px;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.container .service-screen .cards .card .card-main .price-text .text {
+  margin-left: 5px;
+  font-family: "manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.container .service-screen .cards .card .card-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 50px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope-semi-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 195px;
+}
+
+.container .service-screen .cards .card .mt {
+  margin-top: 20px;
+}
+
+.container .contact-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  height: 515px;
+  margin-top: 90px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .contact-screen .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 570px;
+}
+
+.container .contact-screen .left-side .text-1 {
+  font-family: "Manrope-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.container .contact-screen .left-side .text-2 {
+  font-family: "manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin-top: 22px;
+}
+
+.container .contact-screen .left-side .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .contact-screen .left-side .row .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .contact-screen .left-side .row .form-group input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  height: 60px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  margin-top: 22px;
+  padding-left: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .contact-screen .left-side .form-group-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .contact-screen .left-side .form-group-2 textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  margin-top: 20px;
+  width: 570px;
+  height: 141px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  padding-left: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .contact-screen .left-side .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container .contact-screen .left-side .checkbox .checkbox-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+}
+
+.container .contact-screen .left-side .checkbox .text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin-left: 12px;
+}
+
+.container .contact-screen .left-side .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 50px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope-semi-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 195px;
+  height: 54px;
+  margin-top: 20px;
+}
+
+.container .contact-screen .right-side {
+  position: relative;
+  width: 570px;
+  height: 511px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.container .contact-screen .right-side .circle {
+  position: absolute;
+  top: 50px;
+  right: 44px;
+  z-index: 5;
+}
+
+.container .contact-screen .right-side .man {
+  position: absolute;
+  top: 94px;
+  left: 33px;
+  z-index: 10;
+}
+
+.container .contact-screen .right-side .phone {
+  position: absolute;
+  top: 37px;
+  left: 30px;
+}
+
+.container .cases-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1320px;
+  height: 615px;
+  margin-top: 110px;
+}
+
+.container .cases-screen .our-cases {
+  font-family: "Manrope-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-left: 70px;
+}
+
+.container .cases-screen .cards-arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 40px;
+}
+
+.container .cases-screen .cards-arrows .left-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.container .cases-screen .cards-arrows .left-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 570px;
+  height: 520px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .up-side {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .up-side p {
+  padding-top: 4px;
+  padding-bottom: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 160px;
+  background-color: #f3f1fe;
+  padding: 20px 35px 25px 28px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .m_header,
+.container .cases-screen .cards-arrows .left-screen .middle-side .first_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .second_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .third_col {
+  font-family: "Manrope-extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .first_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col,
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .second_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cases-screen .cards-arrows .left-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cases-screen .cards-arrows .left-screen .down-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 277px 25px 26px;
+}
+
+.container .cases-screen .cards-arrows .left-screen .down-side .text {
+  font-family: "Manrope-extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .left-screen .down-side .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.container .cases-screen .cards-arrows .right-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 570px;
+  height: 520px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+
+.container .cases-screen .cards-arrows .right-screen .up-side {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 40px;
+}
+
+.container .cases-screen .cards-arrows .right-screen .up-side p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 160px;
+  background-color: #f3f1fe;
+  padding: 20px 35px 25px 28px;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .m_header,
+.container .cases-screen .cards-arrows .right-screen .middle-side .first_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .second_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .third_col {
+  font-family: "Manrope-extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .first_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .second_col,
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .column span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .second_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cases-screen .cards-arrows .right-screen .middle-side .column .third_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cases-screen .cards-arrows .right-screen .down-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 277px 25px 26px;
+}
+
+.container .cases-screen .cards-arrows .right-screen .down-side .text {
+  font-family: "Manrope-extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.container .cases-screen .cards-arrows .right-screen .down-side .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.container .cases-screen .cards-arrows .right-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 340px;
+  background: #fff;
+  margin-top: 90px;
+}
+
+.container .footer .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+.container .footer .footer-logo .footer-wrapper-menu {
+  margin-top: 5px;
+}
+
+.container .footer .footer-logo .footer-wrapper-menu a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.container .footer .footer-logo .footer-wrapper-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 50px;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  border-radius: 9px;
+  font-family: "Manrope-semi-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 205px;
+  height: 54px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.container .footer .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+}
+
+.container .footer .footer-wrapper .service-header,
+.container .footer .footer-wrapper .info-header {
+  font-family: "manrope-semi-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.container .footer .footer-wrapper a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.container .footer .footer-wrapper .footer-info,
+.container .footer .footer-wrapper .footer-servises {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+}
+
+.container .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3px;
+  background: #2D2D2D;
+  width: 100%;
+  height: 42px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #ffffff;
+}
